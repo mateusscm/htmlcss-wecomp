@@ -148,6 +148,7 @@
 		.campo{
 			font-size: 100%;
 			font-family: Arial;
+			font-size: 18px;
 		}
 		.teste{
 			margin-left: 20%;
@@ -180,3 +181,20 @@
 			font-family: arial;
 			text-shadow: 2px 2px 2px #000;
 		}
+		#recado{
+			text-align: center;
+			margin-right: 10%;
+		}
+		#ifsp{
+			margin-left: 30%;
+		}
+		#send{ 
+			font-size: 20px;
+        	background: #66CDAA; 
+        	border: 0; 
+        	cursor: pointer; 
+        	color: #3e3d3d;
+        }
+        #send:hover{ 
+        	background: #008B8B; 
+        	transition: .6s;}
