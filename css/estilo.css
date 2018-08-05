@@ -1,0 +1,182 @@
+		body{
+			margin: 0;
+			background: #fff;
+		}
+		header{
+			margin: 0;
+			width: 100%;
+		}
+		#navegacao{
+			margin: 0;
+			width: 100%;
+		}
+		#navegacao ul{
+			text-align: center;
+			margin: 0;
+			background-color: #66CDAA;
+
+		}
+		#navegacao ul li{
+			display: inline;
+		}
+		#navegacao ul li a{
+			padding: 15px 30px;
+			display: inline-block;
+			color: #000;
+			text-decoration: none;
+			font-family: Arial Black;
+			font-size: 16px;
+			text-shadow: 2px 2px 2px #C0C0C0;
+		}
+		#navegacao ul li a:hover{
+			background-color: #008B8B;
+		}
+		.divisor {
+			width: 5px;
+			height: 30px;
+			background: #000;
+			margin: 16px 30px;
+		}
+		.divisor1{
+			width: 5px;
+			height: 30px;
+			background: #000;
+			margin: 16px 30px;	
+		}
+		#container{
+			display: inline-block;
+			position: relative;
+		}
+		#container figcaption{
+			position: absolute;
+			top: 300px;
+			right: 300px;
+			text-align: center;
+			font-family: arial black;
+			font-size: 40px;
+			color: black;
+			text-shadow: 2px 2px 2px #C0C0C0;
+		}
+		hr{
+			border-width: 5px;
+			border-color: #008B8B;
+			border-style: groove;
+			width: auto;
+		}
+		.arredonda1{
+			border-radius: 20%;
+		}
+		#sobre{
+			text-align: left;
+			margin-left: 40px;
+			font-family: arial black;
+			color: #2E8B57;
+		}
+		#tabela{
+			margin-right: 200px;
+			margin-left: 200px;
+		}
+		p{
+			text-align: justify;
+			margin-left: 40px;
+			font-size: 20px;
+			font-family: helvetica;
+		}
+		#ocorre{
+			margin-left: 5%;
+			text-align: center;
+			font-family: arial;
+			font-size: 150%;
+		}
+		.arredonda2{
+			text-align: center;
+			border-radius: 75%;
+			border-style: none;
+			border-width: 5px;
+			border-color: #000;
+		}
+		h1{
+			text-align: left;
+			margin-left: 5%;
+			color: #2E8B57;
+			font-family: Arial black;
+			font-size: 200%;
+
+		}
+		.btn{
+			text-align: center;
+		}
+		.btn a{
+			color: #000;
+			font-family: arial black;
+			text-decoration: none;
+			text-shadow: 2px 2px 2px grey;
+		}
+		.btn a:hover{
+			background-color: #66CDAA;
+			color: #fff;
+		}
+		#mini{
+			margin-left: 10%;
+		}
+		.td1:hover{
+			border-style: outset;
+		}
+		.td2:hover{
+			border-style: outset;
+		}
+		.td3:hover{
+			border-style: outset;
+		}
+		.td4:hover{
+			border-style: outset;
+		}
+		.td5:hover{
+			border-style: outset;
+		}
+		.td5{
+			margin-left: 40px;
+		}
+		#recado{
+			margin-left: 20%;
+		}
+		.letra{
+			font-size: 150%;
+			font-family: Arial;
+			text-shadow: 2px 2px 2px grey;
+		}
+		.campo{
+			font-size: 100%;
+			font-family: Arial;
+		}
+		.teste{
+			margin-left: 20%;
+			font-family: Arial Black;
+		}
+		#parceiros{
+			margin-left: 5%;
+		}
+		footer{
+			background-color: #66CDAA;
+			width: 100%;
+			height: 250px;
+		}
+		#rodape{
+			margin-left: 5%;
+			color:#FFFFFF;
+			font-size: 20px;
+			font-family: arial;
+			text-shadow: 2px 2px 2px #000;
+		}
+		#redes-sociais{
+			text-align: center;
+			background: #fff;
+			padding: 5px;
+		}
+		#direitos{
+			text-align: right;
+			color:#FFFFFF;
+			font-size: 10px;
+			font-family: arial;
+			text-shadow: 2px 2px 2px #000;
+		}

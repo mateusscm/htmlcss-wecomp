@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>WECOMP</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<header> 
+	<div id="navegacao"> 
+		<nav> 
+			<ul> 
+				<li><a href="#sobrew">/ W E C O M P /</a></li>
+				<li class="divisor1" role="separator"></li>
+				<li><a href="#minicursos">Minicursos</a></li>
+				<li><a href="#contato">Contato</a></li>
+				<li><a href="#parceiros">Parceiros</a></li>
+				<li class="divisor" role="separator"></li>
+				<li><a href="cadastro.html" target="_parent">Cadastrar</a></li>
+				<li><a href="login.html" target="_parent">Entrar</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<body>
+	<figure id="container">
+		<img src="img/logo.png">
+		<a name="sobrew">
+		<figcaption>III Semana da Computação<br> </figcaption> 
+	</figure>
+	<br>
+	<hr>
+	<br>
+	<table id="tabela"> 
+		<tr> 
+			<td><img class="arredonda1" src="img/plan.jpg"><br><img class="arredonda1" src="img/tec.jpg"></td>
+			<td>
+				<h2 id="sobre">Sobre a WeComp</h2>
+				<p>O principal objetivo da Semana de Computação é proporcionar aos alunos maior interação com o mercado de trabalho. Dessa forma pretende-se reduzir a distância entre teoria e prática, ensinar tecnologias novas aos alunos e acelerar a entrada deles no mercado de trabalho.</p>
+				<h3 id="ocorre">O evento ocorrerá dos dias: <br> 12 à 15 de Novembro de 2018</h3>
+			</td>
+		</tr>
+	</table><br>
+	<a name="minicursos">
+	<hr>
+
+	<div> 
+		<h1>Minicursos</h1>
+		<table id="mini"> 
+			<tr>
+				<td class=td1><img class="arredonda2" src="img/php.jpg"><br> 
+					<h1 class="btn"><a href="#">PHP</a></h1>
+				</td>
+				<td class="td2"><img class="arredonda2" src="img/python.png"><br> 
+					<h1 class="btn"><a href="#">Python</a></h1>
+				</td>
+				<td class="td3"><img class="arredonda2" src="img/react.png"><br> 
+					<h1 class="btn"><a href="#">React</a></h1>
+				</td>
+				<td class="td4"><img class="arredonda2" src="img/kotlin.jpeg"><br> 
+					<h1 class="btn"><a href="#">Kotlin</a></h1>
+				</td>
+				
+			</tr>
+		</table>
+	</div>
+	<a name="contato">
+	<hr>
+	<h1>Contato</h1>
+	
+	<div> 
+		<table id="recado"> 
+			<tr> 
+				<td> 
+					<form method="post" id="mensagens-site" action="mailto:mateus.miranda@hotmail.com.br">
+						<fieldset>
+							<legend class="letra">Envie sua Mensagem</legend>
+							<div class="campo">
+							<div> 
+								<label for="">Nome</label>
+								<input type="text" name="nome" required="required" placeholder="Digite seu nome completo">
+							</div><br>
+
+							<div> 
+								<label for="">E-mail</label>
+								<input type="text" name="email" required="required" placeholder="Digite seu e-mail">
+							</div><br>
+
+							<div> 
+								<label for="">Selecione sua faculdade</label>
+								<select required="required" name="faculdade"> 
+									<option selected="selected" value="">Selecione</option>
+									<option value="1">IFSP</option>
+									<option value="2">UFSCar</option>
+									<option value="3">USP</option>
+								</select>
+							</div><br>
+
+							<div> 
+								<label for="">Mensagem</label><br>
+								<textarea name="mensagem" id="msg" placeholder="Digite a sua mensagem" cols="45" rows="5"></textarea>
+							</div><br>
+							<div> 
+								<button name="enviar" value="" type="submit">Enviar</button>
+							</div>
+							</div>
+						</fieldset>
+					</form>
+				</td>
+				<td class="td5"><a href="https://scl.ifsp.edu.br/"><img src="img/ifsp.jpg"></a></td>
+			</tr>
+		</table>
+	</div>
+	<p class="teste">Para mais informações, clique na logo do IFSP ao lado</p>
+	<a name="parceiros">
+	<hr>
+
+	<h1>Parceiros</h1>
+	<div id="parceiros"> 
+		<table> 
+			<tr>
+				<td><a href="http://monitoratec.com.br/"><img src="img/monitora.png"><br> 
+					<h1 class="btn"><a href="http://monitoratec.com.br/">Monitora</a></h1></a>
+				</td>
+				<td><a href="https://www.facebook.com/onovolab"><img src="img/OnovoLab.png"><br> 
+					<h1 class="btn"><a href="https://www.facebook.com/onovolab">ONovoLab</a></h1></a>
+				</td>
+				<td><a href="http://juristecplus.com.br/"><img src="img/juristec.png"><br> 
+					<h1 class="btn"><a href="http://juristecplus.com.br/">Juristec+</a></h1></a>
+				</td>
+				<td><a href="https://s2it.com.br/"><img src="img/s2it.png"><br> 
+					<h1 class="btn"><a href="https://s2it.com.br/">S2IT</a></h1></a>
+				</td>
+				<td><a href="https://www.serasaexperian.com.br/"><img src="img/serasa-experian.png"><br> 
+					<h1 class="btn"><a href="https://www.serasaexperian.com.br/">Serasa</a></h1></a>
+				</td>
+				
+			</tr>
+		</table>
+
+	</div>
+
+
+</body>
+<footer>
+	<div id="rodape"><br>
+		<h2>WeComp - III Semana da Computação</h2>
+
+	</div><br>
+	<div id="redes-sociais"> 
+		<a href="https://www.facebook.com/wecompifsp/"><img src="img/facebook.png"></a> 
+	</div>
+
+	<div id="direitos"><h3>Todos os direitos reservados<br>Mateus Miranda - Analista e Desenvolvedor de Sistemas</h3></div>
+	
+</footer>
+</html>
